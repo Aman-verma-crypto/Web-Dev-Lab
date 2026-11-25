@@ -1,0 +1,76 @@
+
+/* P11: Newspaper Three Column Layout */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+}
+
+/* Header */
+
+.news-header {
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.news-header h1 {
+    color: white;
+}
+
+/* CSS Grid Layout */
+
+.news-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+    padding: 30px;
+}
+
+/* News Cards */
+
+.news-column {
+    background: white;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.news-column h2 {
+    color: #2563eb;
+}
+
+/* Footer */
+
+.news-footer {
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    .news-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .news-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
