@@ -1,3 +1,78 @@
 <!DOCTYPE html>
-<html><head><title>Flexbox and Grid</title><link rel="stylesheet" href="style.css"></head>
-<body><header><h1>My Website</h1><nav><a href="#">Home</a> <a href="#">About</a></nav></header><main class="grid"><section><h2>About</h2><p>This is the main content.</p></section><aside><h2>Links</h2><p>Extra information.</p></aside></main></body></html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox vs CSS Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Flexbox vs CSS Grid</h1>
+        <p>Understanding two important CSS layout systems</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Flexbox Layout</h2>
+            <p>Flexbox is best for one-dimensional layouts,
+            such as rows and columns.</p>
+
+            <div class="flex-container">
+                <div>Item 1</div>
+                <div>Item 2</div>
+                <div>Item 3</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>CSS Grid Layout</h2>
+            <p>CSS Grid is best for two-dimensional layouts,
+            using rows and columns together.</p>
+
+            <div class="grid-container">
+                <div>Item 1</div>
+                <div>Item 2</div>
+                <div>Item 3</div>
+                <div>Item 4</div>
+                <div>Item 5</div>
+                <div>Item 6</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Comparison</h2>
+
+            <table>
+                <tr>
+                    <th>Flexbox</th>
+                    <th>CSS Grid</th>
+                </tr>
+
+                <tr>
+                    <td>One-dimensional</td>
+                    <td>Two-dimensional</td>
+                </tr>
+
+                <tr>
+                    <td>Works with rows or columns</td>
+                    <td>Works with rows and columns</td>
+                </tr>
+
+                <tr>
+                    <td>Good for navigation bars</td>
+                    <td>Good for page layouts</td>
+                </tr>
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CSS Layout Practical</p>
+    </footer>
+
+</body>
+</html>

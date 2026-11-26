@@ -1,6 +1,74 @@
-body { font-family: Arial; margin: 0; }
-nav { position: sticky; top: 0; background: navy; color: white; padding: 15px; }
-main { padding: 20px; }
-.card { position: relative; width: 300px; border: 1px solid #ccc; padding: 10px; }
-.card img { width: 100%; }
-.tag { position: absolute; top: 5px; right: 15px; background: orange; padding: 5px; }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8fafc;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #172554;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #dbeafe;
+}
+
+.projects {
+    padding: 50px 8%;
+    text-align: center;
+}
+
+.card {
+    position: relative;
+    max-width: 500px;
+    margin: 25px auto;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(23, 37, 84, 0.85);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
+
+.contact {
+    text-align: center;
+    padding: 50px;
+}

@@ -1,15 +1,31 @@
-# P4: GitHub README and version tags
+# My Portfolio Website
 
-**Aim:** Write project information in README and create a version tag.
+## About
+This is my personal portfolio website created using HTML and CSS.
 
-**Steps / Commands:**
+## Technologies Used
+- HTML5
+- CSS3
+- Git
+- GitHub
 
-```bash
-git add README.md
-git commit -m "Add README"
-git tag v1.0
-git push origin main
-git push origin v1.0
-```
+## Practicals
+- P1: Project Folder and Terminal Navigation
+- P2: Portfolio Repository
+- P3: Feature Branch Workflow
+- P4: README and Version Tags
+- P5: Semantic Bio Page
+- P6: Portfolio Page Structure
+- P7: CSS Design Tokens
+- P8: Sticky Navbar and Card Overlay
+- P9: Responsive Layout with Flexbox
+- P10: Advanced Flexbox
+- P11: Newspaper Layout with CSS Grid
+- P12: Advanced CSS Grid
+- P13: Flexbox vs Grid
 
-**Result:** The practical is completed successfully.
+## How to Run
+Open index.html in your browser.
+
+## Author
+Aman Verma
